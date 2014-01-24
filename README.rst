@@ -1,7 +1,7 @@
 Welcome to gottwall-backend-redis's documentation!
 ==================================================
 
-gottwall-storage-redis is a Redis transport for `GottWall metrics aggregation platform <http://github.com/GottWall/GottWall>`_
+gottwall-storage-redis is a Redis storage  for `GottWall metrics aggregation platform <http://github.com/GottWall/GottWall>`_
 
 .. image:: https://secure.travis-ci.org/GottWall/gottwall-storage-redis.png
 	   :target: https://secure.travis-ci.org/GottWall/gottwall-storage-redis
