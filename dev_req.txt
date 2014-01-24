@@ -1,0 +1,5 @@
+pycallgraph
+ipdb
+redis==2.9.0
+flake8>=2.0,<2.1
+tox==1.6.1
