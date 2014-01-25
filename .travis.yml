@@ -14,7 +14,7 @@ branches:
         - master
 
 install:
-    - ci/setup
+    - bash ci/setup
 
 script:
     - make travis
