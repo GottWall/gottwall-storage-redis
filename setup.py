@@ -21,7 +21,7 @@ from setuptools.command.test import test as BaseTestCommand
 try:
     readme_content = open(os.path.join(os.path.abspath(
         os.path.dirname(__file__)), "README.rst")).read()
-except Exception, e:
+except Exception as e:
     print(e)
     readme_content = __doc__
 
@@ -44,7 +44,7 @@ is_py3 = (py_ver[0] == 3)
 try:
     dev_require = open(op.join(op.abspath(
         op.dirname(__file__)), "dev_req.txt")).readlines()
-except Exception, e:
+except Exception as e:
     print(e)
     dev_require = []
 
