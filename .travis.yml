@@ -14,7 +14,7 @@ branches:
         - master
 
 install:
-    - pip install nose
+    - ci/setup
 
 script:
     - make travis

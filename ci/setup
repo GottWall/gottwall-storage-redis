@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+pip install -U git+git@github.com:GottWall/GottWall.git#egg=gottwall
