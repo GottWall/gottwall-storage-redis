@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+pip install -U https://github.com/GottWall/GottWall/tarball/master
